@@ -1,0 +1,36 @@
+body, html{
+    background-color: rgb(36, 33, 33);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstpage{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(190, 187, 187);
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+table tr {
+    height: calc(300px / 4); 
+}
+
+table td {
+    border: 0px solid rgb(190, 187, 187); 
+    text-align: center; 
+}
+
+#submit{
+    background-color: green;
+    height: 75px;
+    width: 500px;
+    font-size: xx-large;
+    color: white;
+}
